@@ -1,0 +1,20 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "quotes": [ "error", "single" ],
+    "jsx-quotes": [ "error", "prefer-double" ],
+    "semi": [ "error", "never" ]
+  },
+  "globals": {
+    "NodeJS": true
+  }
+}
